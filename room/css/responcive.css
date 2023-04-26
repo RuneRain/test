@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/*
+@media (max-width:1420px){
+}
+
+@media (max-width:744px){
+  .inner {max-width:744px; margin:auto}
+  .hotel_wrap img {
+   width:300px;
+   border-radius:10px;
+   margin:0;
+  }
+}
+
+
+@media (max-width:393px){
+  .inner {max-width:393px;}
+ 
+  .best_hotel {
+    margin:35px;
+    text-align:center;
+  }
+    .best_hotel_img {
+      width:150px;
+      height:150px;
+      border-radius:100px;
+    }
+
+  .hotel {
+    margin:50px auto 30px;
+    border-bottom:1px solid #A49E9E;
+  }
+  
+  .hotel_wrap img {
+   border-radius:10px;
+  }
+}
+*/
+
+
+@media (max-width:1920px) {
+  .main_gnb_M {
+      display:none;
+  }
+}
+
+@media (max-width:900px) {
+  .header_top ul {
+      opacity:0;
+      display:none;
+  }
+  .main_gnb_M {
+      display:none;
+  }
+  .header_top {
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      float:none;
+  }
+  .swiper-buttons {
+      display:none;
+  }
+  .slide_down_icon {
+      display:none;
+  }
+}
+
+@media (max-width:729px) {
+  .main_gnb > li > a {
+      font-size:14px;
+  }
+  .main_gnb_M {
+      display:none;
+  }
+  .site_move {
+      display:none;
+  }
+}
+
+@media (max-width:650px) {
+  .top_left {
+      display:flex;
+      width:100%;
+      justify-content:center;
+      align-items:center;
+  }
+  .top_right {
+      display:none;
+  }
+  .main_gnb_M {
+      display:block;
+  }
+  .ham {
+      display:block;
+  }
+  .header_bottom {
+      display:none;
+  }
+  .checkin_out {
+      display:none;
+  }
+  .bottom_left {
+      width:100%;
+  }
+  .bottom_left > ul {
+      justify-content:space-around;
+  }
+  .open_content {
+      display:none;
+  }
+  .footer_gnb {
+      display:none;
+  }
+  .footer_logo h2 {
+      width:60px;
+      height:60px;
+  }
+  .footer_info {
+      margin-top:20px;
+      width:300px;
+      line-height:20px;
+      font-size:10px;
+  }
+  .bottom_left > ul > li:first-child {
+      padding:10px 30px;
+  }
+}
